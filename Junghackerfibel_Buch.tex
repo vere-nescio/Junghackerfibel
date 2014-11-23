@@ -1,11 +1,87 @@
-\documentclass{scrbook}
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper,10pt]{scrbook}
+
+\usepackage[utf8]{inputenc} % Die hier verwendeten .tex-Dateien sind in UTF-8 kodiert
+\usepackage{german} % Sprache ist Deutsch, wir verwenden alte Rechtschreibung
+\usepackage{charter} % Unsere CI-Schrift ist Charter
+\usepackage[protrusion=true,expansion=true]{microtype} % Typographische Feinheiten
+\frenchspacing % schaltet vergrößerten Abstand nach Satzende aus
+
+%Überschriftenformatierung
+\setkomafont{sectioning}{\normalfont\bfseries} % Denselben Zeichensatz wie im Text auch für Überschriften verwenden
+%\setkomafont{section}{\large}
+%\setkomafont{subsection}{\normalsize}
+
+% Einstellungen für URLs
+\usepackage{url}
+\urlstyle{same}
+\renewcommand{\url}[1]{\textit{#1}}
+
+% Listenformatierung
+\usepackage{paralist} % ermöglicht \compactitem und \compactenum
+
+% Schusterjungen und Hurenkinder verhindern
+\clubpenalty = 10000
+\widowpenalty = 10000
+
+% Trennstellen beeinflussen
+\usepackage[T1]{fontenc}
+\hyphenation{} % besondere Trennstellen angeben, z. B. Hack-sport-gruppe, von Leerzeichen getrennt
+
+% Erstzeileneinzug definieren
+\setlength{\parindent}{1em} 
+
+% Satzspiegel, Einzüge usw. definieren
+\usepackage[top=2cm,bottom=3.5cm,left=2.8cm,right=3.6cm,headsep=6mm]{geometry}
+
+% Frontmatter Römisch numeriert
+\csname g@addto@macro\endcsname\frontmatter{\pagenumbering{Roman}}
+
+%Leerseite einfügen
+\newcommand{\leerseite}{\newpage\thispagestyle{empty}\mbox{}\newpage}
+
+% Sorgt für Fußnoten *unter* Gleitobjekten
+\usepackage{stfloats}
+\fnbelowfloat
+
+% Absatzabstände vereinheitlichen
+\raggedbottom % schaltet flushedbottom ab
+
+% umbrechbares schmale Leerzeichen definieren
+\makeatletter % definiert \, und \,*, wovon letztes umbrochen werden kann
+\DeclareRobustCommand{\,}{%
+  \relax\ifmmode\mskip\thinmuskip\else\thinspace\fi
+  \@ifstar{\hskip\z@skip}{}%
+}
+\makeatother
+
+% Graphikeinbindung
+\usepackage{graphicx}
+
 \begin{document}
+
+\frontmatter
 
 \title{Junghackerfibel}
 \author{Nescio et al.}
 \date{\today}
 \maketitle
 
-Hallo, Welt!
+
+
+\input{vorwort.tex} % Vorwort einbinden; Dateiendung hier nur zur Verständlichkeit
+
+\tableofcontents % Gibt das Inhaltsverzeichnis aus.
+
+\mainmatter
+
+\chapter{Einführung}
+
+\section{Allgemeines}
+
+\subsection{Besonderes}
+
+Text.
 
 \end{document}
