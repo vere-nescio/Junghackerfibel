@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.22)  23 NOV 2014 22:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.22)  27 NOV 2014 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -38,16 +38,16 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrbook Info: You've used obsolete option `11pt'.
-(scrbook)             \KOMAExecuteOptions{fontsize=11pt} will be
+Package scrbook Info: You've used obsolete option `12pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=12pt} will be
 (scrbook)             used instead.
-(scrbook)             You may simply replace `11pt'
-(scrbook)             by `fontsize=11pt'.
-Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+(scrbook)             You may simply replace `12pt'
+(scrbook)             by `fontsize=12pt'.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
 ne 1368.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12p
 t)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -69,21 +69,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@vblk=\skip43
 \ta@temp=\skip44
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
+(typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 47.2316pt
-(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)              \evensidemargin = 27.31467pt
+(typearea)              \oddsidemargin  = -22.47766pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.60002pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1213.
 )
 \c@part=\count80
@@ -99,7 +99,13 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+) (/Users/gail/Library/texmf/tex/latex/pdfsync.sty
+Package: pdfsync 2004/01/31 v0.6
+\PDFPOS=\write3
+\PDFSYNC@folio=\count89
+\PDFSYNC@rder=\count90
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -328,11 +334,11 @@ Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks17
-\MT@count=\count89
+\MT@count=\count91
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen104
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count90
+\MT@listname@count=\count92
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -348,7 +354,7 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 12.
+(scrkbase)             `disposition' on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -383,9 +389,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count91
-\Gm@cntv=\count92
-\c@Gm@tempcnt=\count93
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
 \Gm@bindingoffset=\dimen105
 \Gm@wd@mp=\dimen106
 \Gm@odd@mp=\dimen107
@@ -399,10 +405,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2013/texmf-dist/tex/latex/sttools/stfloats.sty
 Package: stfloats 2012/05/29 v1.1 Improve float mechanism and baselineskip sett
 ings
-\@dblbotnum=\count94
-\c@dblbotnumber=\count95
+\@dblbotnum=\count96
+\c@dblbotnumber=\count97
 )
-LaTeX Info: Redefining \, on input line 53.
+LaTeX Info: Redefining \, on input line 55.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -427,32 +433,113 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count96
+\Gread@gobject=\count98
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen115
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip11
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks21
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks22
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks23
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count113
+\calc@Cskip=\skip57
+)
 (./Junghackerfibel_Buch.aux)
 \openout1 = `Junghackerfibel_Buch.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 68.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
-LaTeX Info: Redefining \microtypecontext on input line 62.
+**** pdfsync.sty: Synchronization is enabled.
+\openout3 = `Junghackerfibel_Buch.pdfsync'.
+
+**** pdfsync.sty: Synchronizing par
+**** pdfsync.sty: Synchronizing math
+**** pdfsync.sty: Synchronizing hbox
+**** pdfsync.sty: Synchronizing extra
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -483,15 +570,15 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 * \textheight=688.5567pt
 * \oddsidemargin=7.39781pt
 * \evensidemargin=30.1601pt
-* \topmargin=-49.43613pt
-* \headheight=17.0pt
+* \topmargin=-50.56113pt
+* \headheight=18.125pt
 * \headsep=17.07164pt
-* \topskip=11.0pt
-* \footskip=47.60002pt
-* \marginparwidth=89.62619pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=74.68849pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -503,17 +590,17 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen115
-\scratchbox=\box27
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen116
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count114
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -558,94 +645,161 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 70.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
- [1
+(./vorwort.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[1
 
 
 
 {/Users/gail/Library/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 ]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
 [2
 
-] (./vorwort.tex) [3
+
+])
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[3]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
 
-] [4
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[4
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 75
+Package tocbasic Info: character protrusion at toc deactivated on input line 81
 .
  (./Junghackerfibel_Buch.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
-\tf@toc=\write3
-\openout3 = `Junghackerfibel_Buch.toc'.
-
- [5] [6
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+))
+\tf@toc=\write4
+\openout4 = `Junghackerfibel_Buch.toc'.
 
 
-]
-(./einfuehrung.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[5]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[6
+
+
+] (./einfuehrung.tex
 Kapitel 1.
-) [1
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
-
-] [2
+[1
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 83
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
+
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 89
 .
  (./Junghackerfibel_Buch.lof)
-\tf@lof=\write4
-\openout4 = `Junghackerfibel_Buch.lof'.
-
- [3
+\tf@lof=\write5
+\openout5 = `Junghackerfibel_Buch.lof'.
 
 
-] [4
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[3
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 85
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[4
+
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 91
 .
  (./Junghackerfibel_Buch.lot)
-\tf@lot=\write5
-\openout5 = `Junghackerfibel_Buch.lot'.
+\tf@lot=\write6
+\openout6 = `Junghackerfibel_Buch.lot'.
 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
 [5] (./Junghackerfibel_Buch.aux) ) 
 Here is how much of TeX's memory you used:
- 5610 strings out of 493315
- 87846 string characters out of 6137904
- 204988 words of memory out of 5000000
- 8947 multiletter control sequences out of 15000+600000
- 24580 words of font info for 49 fonts, out of 8000000 for 9000
+ 6440 strings out of 493315
+ 97718 string characters out of 6137904
+ 217842 words of memory out of 5000000
+ 9730 multiletter control sequences out of 15000+600000
+ 27736 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 46i,6n,47p,581b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,6n,49p,635b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc
 /dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/bitstrea/cha
 rter/bchb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/bitstrea/charte
 r/bchr8a.pfb>
-Output written on Junghackerfibel_Buch.pdf (11 pages, 31637 bytes).
+Output written on Junghackerfibel_Buch.pdf (11 pages, 32727 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 9217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

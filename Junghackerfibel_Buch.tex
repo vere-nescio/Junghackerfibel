@@ -1,6 +1,8 @@
 % !TEX encoding = UTF-8 Unicode
 
-\documentclass[a4paper,11pt]{scrbook}
+\documentclass[a4paper,12pt]{scrbook}
+
+\usepackage{pdfsync} % Erlaubt das Hin- und Herspringen zwischen PDF und LaTeX-Quelltext
 
 \usepackage[utf8]{inputenc} % Die hier verwendeten .tex-Dateien sind in UTF-8 kodiert
 \usepackage{german} % Sprache ist Deutsch, wir verwenden alte Rechtschreibung
@@ -56,18 +58,22 @@
 }
 \makeatother
 
-% Graphikeinbindung
-\usepackage{graphicx}
+\usepackage{graphicx} % Graphikeinbindung
+\usepackage{amsmath} % ermöglicht pmb = poor man's bold
+\newcommand{\ultrafett}[1]{\pmb{\textbf{{#1}}}} % definiert ultrafett
 
-\begin{document}
+\usepackage{ifthen} % Erlaubt einfache Programmierungen in LaTeX
+\usepackage{calc} % Erlaubt Berechnungen
 
-\frontmatter
+\begin{document} % Hier endet der Vorspann, und es beginnt der Dokumentinhalt
 
-\title{Junghackerfibel}
-\author{Nescio et al.}
-\date{\today}
-\maketitle
+\frontmatter % Die ersten Seiten eines Buches, die hier mit römisch numeriert sind 
 
+\vspace*{4cm} % 4 cm Abstand von oben, mit Stern, weil vorher keine Objekte auf der Seite sind
+
+\thispagestyle{empty} % entfernt Kolumnentitel (= Titel in der Kopfzeile) und Seitenzahl
+\fontsize{48}{50}\selectfont \ultrafett{Junghackerfibel} % Setzt die Schriftgröße auf 48 und den Zeilenabstand auf 50 
+\normalsize % setzt die Schriftgröße auf normal zurück
 
 
 \input{vorwort.tex} % Vorwort einbinden; Dateiendung hier nur zur Verständlichkeit
