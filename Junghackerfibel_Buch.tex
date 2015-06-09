@@ -72,9 +72,26 @@
 \vspace*{4cm} % 4 cm Abstand von oben, mit Stern, weil vorher keine Objekte auf der Seite sind
 
 \thispagestyle{empty} % entfernt Kolumnentitel (= Titel in der Kopfzeile) und Seitenzahl
-\fontsize{48}{50}\selectfont \ultrafett{Junghackerfibel} % Setzt die Schriftgröße auf 48 und den Zeilenabstand auf 50 
+\fontsize{48}{60}\selectfont \ultrafett{Junghackerfibel} % Setzt die Schriftgröße auf 48 und den Zeilenabstand auf 50 
+
+\vspace*{1cm}
+
+\fontsize{24}{30}\selectfont \ultrafett{Wie lerne ich hacken?}
+
+\vspace*{0.2cm}
+
+\fontsize{24}{30}\selectfont \ultrafett{– für Kinder ab 12 Jahren} 
 \normalsize % setzt die Schriftgröße auf normal zurück
 
+\newpage
+
+\vspace*{\fill} % Schiebt alles Nachfolgende bis zum nächsten Seitenumbruch unten auf die Seite, mit Sternchen auch dann, wenn die Seite eben erst angefangen hat.
+
+\noindent Fassung vom \today.\\ % \\ = neue Zeile
+
+\noindent Alle verwendete Firmen-, Markennamen und Warenzeichen sind Eigentum der jeweiligen Inhaber. (Wer hätte das gedacht?)\\ 
+
+\noindent Die Verwendung der beschriebenen Vorschläge und Anleitungen erfolgt auf eigene Gefahr. 
 
 \input{Vorwort.tex} % Vorwort einbinden; Dateiendung hier nur zur Verständlichkeit
 
@@ -82,7 +99,13 @@
 
 \mainmatter
 
-\input{Einfuehrung.tex} % Einführung einbinden
+\input{Einfuehrung.tex} % Kapitel Einführung einbinden
+
+\input{Voraussetzungen.tex} % Kapitel Voraussetzungen einbinden
+
+\input{Lesen.tex} % Kapitel Lesen einbinden
+
+\input{Tippen.tex} % Kapitel Tippen einbinden
 
 \input{Texteditor.tex} % Kapitel Texteditor einbinden
 
@@ -92,8 +115,8 @@
 
 \backmatter
 
-\listoffigures
+% \listoffigures % Abbildungsverzeichnis – haben wir derzeit noch nicht
 
-\listoftables 
+% \listoftables % Tabellenverzeichnis – haben wir derzeit noch nicht
 
 \end{document}
