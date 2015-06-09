@@ -1,0 +1,97 @@
+%!TEX root = Junghackerfibel_Buch.tex
+%!TEX encoding = UTF-8 Unicode
+
+\chapter{Lerne die Kommandozeile kennen}
+
+\section{Terminal-Fenster und Kommandozeile}
+
+Starte das Programm \emph{Terminal}; es öffnet sich ein Fenster – ein Terminal-Fenster. Das Wort \emph{bash} in der Titelzeile des Fensters steht für \emph{Bourne again shell}. Die \emph{bash} ist eine Weiterentwicklung der \emph{Bourne shell}, kurz \emph{sh}. Als \emph{Shell} (engl. Schale) bezeichnet man die Benutzeroberfläche von Unix-artigen Betriebssystemen. Die Shell zeigt zunächst nur einen leeren Textbildschirm mit einer Kommandozeile, die etwa so aussieht:
+
+\begin{verbatim}
+xerxes:~ nescio$
+\end{verbatim}
+
+\noindent Am Anfang steht der Name des Rechners, auf dem man sich gerade befindet, nach dem Doppelpunkt folgt der Name des Ordners, in welchem man sich gerade befindet: Die Tilde ist die Kurzform für \emph{home} – den eigenen Ordner des Benutzers, der einem auch als ›Heimatverzeichnis‹ begegnet. Da Unix-artige Betriebssysteme dafür gemacht sind, daß sich mehrere Menschen einen Rechner teilen, bekommt jeder Benutzer seinen eigenen Ordner, in dem er mehr oder weniger machen kann, was er will. 
+
+Nach dem Leerzeichen folgt der Name des Benutzers, der man gerade ist. Am Ende folgen ein Dollarzeichen und ein Leerzeichen. Das Dollarzeichen bedeutet, dass man normaler Benutzer ist. Es gibt noch den privilegierten Benutzer \emph{root}, der hat an dieser Stelle eine Raute – die bekommen wir aber wahrscheinlich nie zu Gesicht, zumindest nicht auf dem eigenen Rechner.
+
+\section{Navigation im Ordnersystem}
+
+Wie findet man heraus, in welchem Ordner man sich gerade befindet? Tippe in die Kommandozeile ein:
+
+\begin{verbatim}
+pwd
+\end{verbatim}
+
+\noindent und betätige die Absatztaste bzw. Zeilenschaltung (\emph{Return}). Unser home-Ordner befindet sich also hier:
+
+\begin{verbatim}
+/Users/nescio/
+\end{verbatim}
+
+\noindent Als nächstes schauen wir uns hier mal genauer um. Probiere nacheinander mal folgende Kommandos aus:
+
+\begin{verbatim}
+ls
+ls -a
+ls -l
+ls -l -a
+ls -la
+tree -L 2
+\end{verbatim}
+
+\noindent Der letzte Befehl dürfte jetzt noch nicht funktionieren – wir probieren ihn später nochmal aus.
+
+Was haben wir gerade getan? Wir haben Programme gestartet und den Programmen unterschiedliche Befehle mit auf den Weg gegeben. Das erste Programm \emph{ls} steht für \emph{list} und listet auf, welche Dateien sich in einem Ordner befinden.
+
+\begin{verbatim}
+.
+..				
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+\end{verbatim}
+
+\noindent Es fällt auf, daß uns der Finder an denselben Stellen manche Ordner mit deutschem Namen anzeigt, der Ordner \emph{Schreibtisch} heißt in Wirklichkeit \emph{Desktop}. Man kann sich durch diese Ordner hangeln, wie man es im Finder gewohnt ist, allerdings gibt es dafür Kommandozeilenbefehle:
+
+\begin{verbatim}
+cd Documents
+cd .
+cd ..
+\end{verbatim}
+
+\noindent Mit dem ersten Befehl wechseln wir in den Ordner \emph{Documents}, mit dem zweiten Befehl wechseln wir in den aktuellen Ordner (Da sind wir bereits, es passiert also im Grunde gar nichts.), mit dem dritten Befehl wechseln wir in den übergeordneten Ordner.
+
+Wenn wir dem Kommando \emph{ls} den Parameter \emph{-a} mitgeben, dann listet uns das Programm alles auf, was sich im aktuellen Ordner befindet. Manche Dateien werden unsichtbar gemacht, indem man den Dateinamen mit einem Punkt beginnen läßt. Der Parameter \emph{-l} steht für \emph{long}, und die Ausgabe für eine einzelne Zeile sieht etwa so aus:
+
+\begin{verbatim}
+drwxr-xr-x+  546 nescio  staff   18564  9 Jun 14:20 Documents
+\end{verbatim}
+
+\noindent Was die Angaben alle bedeuten, werden wir später erfahren.
+
+\section{Homebrew und weitere Programme installieren}
+
+Wir brauchen  zuerst einmal \emph{Homebrew} von \emph{http://brew.sh}. Die Installationsanweisung steht auf der Homebrew-Seite und lautet – jedoch ohne Zeilenumbruch – etwa so:
+
+\begin{verbatim}
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew
+/install/master/install)"
+\end{verbatim}
+
+\noindent Wir lassen die Installation ablaufen und sind danach bereit, weitere Kommandozeilenprogramme zu installieren. 
+Typische Programme für den Anfang wären \emph{wget}, \emph{youtube-dl}, \emph{rtmpdump}, \emph{ffmpeg} und \emph{tree} – und das geht mit:
+
+\begin{verbatim}
+brew install wget
+brew install youtube-dl
+brew install rtmpdump
+brew install ffmpeg
+brew install tree
+\end{verbatim}
+

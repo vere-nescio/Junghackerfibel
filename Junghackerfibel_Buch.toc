@@ -1,3 +1,8 @@
 \contentsline {chapter}{Vorwort}{III}
 \contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{1}
 \contentsline {section}{\numberline {1.1}Was ist Hacken?}{1}
+\contentsline {chapter}{\numberline {2}Verwende einen Texteditor}{3}
+\contentsline {chapter}{\numberline {3}Lerne die Kommandozeile kennen}{5}
+\contentsline {section}{\numberline {3.1}Terminal-Fenster und Kommandozeile}{5}
+\contentsline {section}{\numberline {3.2}Navigation im Ordnersystem}{5}
+\contentsline {section}{\numberline {3.3}Homebrew und weitere Programme installieren}{7}
